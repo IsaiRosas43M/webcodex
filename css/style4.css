@@ -381,7 +381,7 @@ section{
     padding:3rem 2rem;
 }
 
-.review .box-container .box2{
+.review .box-container .box3{
     border:var(--border);
     text-align: center;
     padding:3rem 2rem;
@@ -396,7 +396,7 @@ section{
     padding:2rem 0;
 }
 
-.review .box-container .box2 p{
+.review .box-container .box3 p{
     font-size: 1.5rem;
     line-height: 1.8;
     color:#ccc;
@@ -410,7 +410,7 @@ section{
     object-fit: cover;
 }
 
-.review .box-container .box2 .user{
+.review .box-container .box3 .user{
     height: 7rem;
     width: 7rem;
     border-radius: 50%;
@@ -423,7 +423,7 @@ section{
     color:#fff;
 }
 
-.review .box-container .box2 h3{
+.review .box-container .box3 h3{
     padding:1rem 0;
     font-size: 2rem;
     color:#fff;
@@ -434,7 +434,7 @@ section{
     color:var(--main-color);
 }
 
-.review .box-container .box2 .stars i{
+.review .box-container .box3 .stars i{
     font-size: 1.5rem;
     color:var(--main-color);
 }
@@ -708,7 +708,7 @@ section{
     }
     
 
-    .box2{
+    .box3{
         position: relative;
         margin-left: -104%;
         height: 23rem;
@@ -797,7 +797,7 @@ section{
     }
     
 
-    .box2{
+    .box3{
         position: relative;
         margin-left: -104%;
         height: 19rem;
@@ -874,7 +874,7 @@ section{
     }
     
 
-    .box2{
+    .box3{
         position: relative;
         margin-left: -104%;
         height: 19rem;
@@ -951,7 +951,7 @@ section{
     }
     
 
-    .box2{
+    .box3{
         position: relative;
         margin-left: -104%;
         height: 19rem;
@@ -1028,7 +1028,7 @@ section{
     }
     
 
-    .box2{
+    .box3{
         position: relative;
         margin-left: -104%;
         height: 19rem;
@@ -1089,12 +1089,12 @@ section{
 
 }
 
-@media all and  (max-width:470px){
+@media all and  (max-width: 470px){
 
     
 
     .pie{
-        position: absolute;
+       
         margin-left: -25%;
         margin-top: -100%;
     }
@@ -1105,13 +1105,7 @@ section{
     }
     
 
-    .box2{
-        position: relative;
-        margin-left: -104%;
-        height: 19rem;
-        width: 47rem;
     
-    }
 
     .review {
         margin-top: 10%;
@@ -1182,11 +1176,11 @@ section{
     }
     
 
-    .box2{
+    .box3{
         position: relative;
         margin-left: -104%;
         height: 19rem;
-        width: 58rem;
+        width: 61rem;
     
     }
 
@@ -1264,7 +1258,7 @@ section{
         font-size: 55%;
     }
 
-    .footer{
+    .pie{
         position: absolute;
         margin-left: -30%;
         margin-top: -320%;
@@ -1322,11 +1316,11 @@ section{
     }
     
 
-    .box2{
+    .box3{
         position: relative;
         margin-left: -104%;
         height: 19rem;
-        width: 43rem;
+        width: 41rem;
     
     }
 
@@ -1403,10 +1397,10 @@ section{
         font-size: 55%;
     }
 
-    .footer{
+    .pie{
         position: absolute;
         margin-left: -30%;
-        margin-top: -285%;
+        margin-top: -150%;
     }
 
     .links{
@@ -1461,7 +1455,7 @@ section{
     }
     
 
-    .box2{
+    .box3{
         position: relative;
         margin-left: -104%;
         height: 19rem;
@@ -1542,7 +1536,7 @@ section{
         font-size: 55%;
     }
 
-    .footer{
+    .pie{
         position: absolute;
         margin-left: -30%;
         margin-top: -380%;
@@ -1600,7 +1594,7 @@ section{
     }
     
 
-    .box2{
+    .box3{
         position: relative;
         margin-left: -104%;
         height: 19rem;
@@ -1681,10 +1675,10 @@ section{
         font-size: 55%;
     }
 
-    .footer{
+    .pie{
         position: absolute;
         margin-left: -30%;
-        margin-top: -380%;
+        margin-top: -160%;
     }
 
     .links{
@@ -1739,7 +1733,7 @@ section{
     }
     
 
-    .box2{
+    .box3{
         position: relative;
         margin-left: -104%;
         height: 19rem;
@@ -1820,10 +1814,10 @@ section{
         font-size: 55%;
     }
 
-    .footer{
+    .pie{
         position: absolute;
         margin-left: -30%;
-        margin-top: -310%;
+        margin-top: -180%;
     }
 
     .links{
@@ -1878,7 +1872,7 @@ section{
     }
     
 
-    .box2{
+    .box3{
         position: relative;
         margin-left: -104%;
         height: 19rem;
