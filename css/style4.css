@@ -542,7 +542,7 @@ section{
     padding:1rem 0;
 }
 
-.footer{
+.pie{
     background:var(--black);
     text-align: center;
     top: 310%;
@@ -550,11 +550,11 @@ section{
     
 }
 
-.footer .share{
+.pie .share{
     padding:1rem 20;
 }
 
-.footer .share a{
+.pie .share a{
     height: 5rem;
     width: 5rem;
     line-height: 5rem;
@@ -566,11 +566,11 @@ section{
     
 }
 
-.footer .share a:hover{
+.pie .share a:hover{
     background-color: var(--main-color);
 }
 
-.footer .links{
+.pie .links{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -579,25 +579,25 @@ section{
     
 }
 
-.footer .links a{
+.pie .links a{
     padding:.7rem 2rem;
     color:#fff;
     border:var(--border);
     font-size: 2rem;
 }
 
-.footer .links a:hover{
+.pie .links a:hover{
     background:var(--main-color);
 }
 
-.footer .credit{
+.pie .credit{
     font-size: 2rem;
     color:#fff;
     font-weight: lighter;
     padding:1.5rem;
 }
 
-.footer .credit span{
+.pie .credit span{
     color:var(--main-color);
 }
 
@@ -653,7 +653,7 @@ section{
     .footer{
         position: absolute;
         margin-left: -30%;
-        margin-top: -30%;
+        margin-top: -550%;
     }
 
     .links{
@@ -781,6 +781,83 @@ section{
 
 }
 
+@media all and  (max-width:366px){
+
+    
+
+    .pie{
+        position: absolute;
+        margin-left: -36%;
+        margin-top: -150%;
+    }
+
+    .feliz2{
+        margin-top: 65%;
+        margin-left: -19%;
+    }
+    
+
+    .box2{
+        position: relative;
+        margin-left: -104%;
+        height: 19rem;
+        width: 43rem;
+    
+    }
+
+    .review {
+        margin-top: 10%;
+    }
+
+    
+
+    
+
+    #menu-btn{
+        display: inline-block;
+    }
+
+    .header .navbar{
+        position: absolute;
+        top:100%; right: -100%;
+        background: #fff;
+        width: 30rem;
+        height: calc(100vh - 9.5rem);
+    }
+
+    .header .navbar.active{
+        right:0;
+    }
+
+    .header .navbar a{
+        color:var(--black);
+        display: block;
+        margin:1.5rem;
+        padding:.5rem;
+        font-size: 2rem;
+    }
+
+    .header .search-form{
+        width: 90%;
+        right: 2rem;
+    }
+
+    .home{
+        background-position: left;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .home .content h3{
+        font-size: 4.5rem;
+    }
+
+    .home .content p{
+        font-size: 1.5rem;
+    }
+
+}
+
 
 @media (max-width:375px){
 
@@ -855,7 +932,7 @@ section{
 
     
     .feliz{
-        margin-top: 20%;
+        margin-top: 65%;
         margin-left: -19%;
     }
     
@@ -944,7 +1021,7 @@ section{
     .footer{
         position: absolute;
         margin-left: -30%;
-        margin-top: -380%;
+        margin-top: -285%;
     }
 
     .links{
@@ -994,7 +1071,7 @@ section{
 
     
     .feliz{
-        margin-top: -60%;
+        margin-top: -15%;
         margin-left: -19%;
     }
     
